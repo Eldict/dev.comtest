@@ -1,0 +1,64 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 50px 50px 50px 50px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 70px;
+}
+
+p, footer{
+  font-weight: 20;
+}
+
+
+.beauty{    
+  width: 580px;
+  float: left;
+}
+
+.construction{
+  width: 580px;
+  float: right;
+}
+
+footer{
+  clear: both;
+  color:navy;
+  margin-top: 250px;
+  text-align: right;
+}
+
+#beauty-and-construction img{
+  display:inline-block;  
+  height: 190px;
+  width: 300px; 
+  float: left;
+  margin: 10px;
+}
+
+@media (max-width: 680px)
+{
+
+  .logo{
+      width: 200px;
+  }
+
+  h1{
+      font-size: 37px;
+  }
+
+  .beauty{    
+      width: 380px;
+  }
+
+  .construction{
+      width: 390px;
+  }
+
+  
+
+}
